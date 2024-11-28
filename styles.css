@@ -1,0 +1,148 @@
+/* Resetando alguns estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.inspiracao-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 5px solid #e74c3c;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.testemunho {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testemunho p {
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.testemunho strong {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-media li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
